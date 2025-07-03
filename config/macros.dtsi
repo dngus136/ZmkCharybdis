@@ -4,32 +4,32 @@
 
         macro_cut: macro_0 {
             label = "Cut";
-            bindings = <&kp LCTL &kp X>;
+            bindings = <&kp LCTL>, <&kp X>;
         };
 
         macro_copy: macro_1 {
             label = "Copy";
-            bindings = <&kp LCTL &kp C>;
+            bindings = <&kp LCTL>, <&kp C>;
         };
 
         macro_paste: macro_2 {
             label = "Paste";
-            bindings = <&kp LCTL &kp V>;
+            bindings = <&kp LCTL>, <&kp V>;
         };
 
         macro_alt_f4: macro_3 {
             label = "Alt+F4";
-            bindings = <&kp LALT &kp F4>;
+            bindings = <&kp LALT>, <&kp F4>;
         };
 
         macro_win_left: macro_4 {
             label = "Win+Left";
-            bindings = <&kp LGUI &kp LEFT>;
+            bindings = <&kp LGUI>, <&kp LEFT>;
         };
 
         macro_win_right: macro_5 {
             label = "Win+Right";
-            bindings = <&kp LGUI &kp RIGHT>;
+            bindings = <&kp LGUI>, <&kp RIGHT>;
         };
     };
 };
